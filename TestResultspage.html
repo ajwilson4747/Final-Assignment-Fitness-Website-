@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src = "https://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"> </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+  <script type= "text/javascript" src= "fitnessApp.js"> </script>
+  <!--<link rel= "stylesheet" href="css\styleVideo23.css"> -->
+
+<title> New Results Page </title>
+</head>
+
+<fieldset>
+  <legend> Test for pulling different workouts  </legend>
+</fieldset>
+
+<fieldset>
+  <form name= 'fitnessForm'>
+    <select name="MuscleGroup" id="MuscleGroup">
+        <option id= "option1" value="ABDOMINALS">ABDOMINAL</option>
+        <option id= "option2" value="BICEPS">BICEPS</option>
+        <option id= "option3" value="LEGS">LEGS</option>
+    </select>
+  <input type="submit" onclick= "displayResults();"/>
+  </form>
+</fieldset>
+
+<fieldset>
+  <p id="output"> </p>
+</fieldset>
+
+</html>

@@ -1,0 +1,102 @@
+legend{
+  position: relative;
+  background-color: black;
+  color: #a6e7ff;
+  padding: 10px;
+  font-size: 45px;
+  font-style: oblique;
+  font-family: "Arial Narrow", sans-serif;
+  margin-left: 0px;
+  width:1550px;
+  text-align: center;
+}
+
+.page{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.page::before{
+  content:'';
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right:0px;
+  background-image: url("../media/workout_photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  opacity: .50;
+}
+.container{
+  position: relative;
+  text-align: center;
+  margin-left: -1110px;
+  margin-top: 150px;
+  width: 700px;
+  height: auto;
+}
+
+#subHeader{
+  text-align: center;
+  font-family: "Times New Roman";
+  color:#ab4b52;
+  font-size: 20px;
+}
+.text-center{
+  text-align: center;
+  position: relative;
+  width: 300px;
+  margin-left: -910px;
+}
+
+#MuscleGroup{
+  width: 100%;
+  background-color:#cb4154;
+  font-family: "Arial Narrow";
+  font-size: 16px;
+}
+#option1{
+  background-color:#bf4f51;
+  font: "Helvetica";
+  font-size: 16px;
+}
+#option2{
+  background-color:#a81c07;
+  font: "Arial";
+  font-size: 16px;
+}
+#option3{
+  background-color:#ab4e52;
+  font: "Arial";
+  font-size: 16px;
+}
+
+#output{
+  position: relative;
+  color: white;
+  font-size: 16px;
+  width: 300px;
+  height: 150px; 
+}
+
+@media (max-width: 660px){
+
+  .container{
+    position: relative;
+    text-align: left;
+    margin-top: 150px;
+    margin-left: -400px;
+    width: 300px;
+  }
+
+  .text-center{
+    text-align: center;
+    position: relative;
+    width: 200px;
+    margin-left: -350px;
+  }
+
+}

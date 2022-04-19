@@ -1,0 +1,178 @@
+*{
+  -webkit-box-sharing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+
+body{
+  background-image: url("../media/gym_photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #d70040;
+  font-family: "Arial";
+}
+
+legend{
+  background-color: black;
+  color: #a6e7ff;
+  padding: 10px;
+  font-size: 30px;
+  font-style: oblique;
+  font-family: "Arial Narrow", sans-serif;
+  margin-left: 0px;
+  width:98%;
+}
+
+  #hook{
+    text-align: center;
+    font-size:25px;
+    font-family: "Dido", serif;
+    font-style: italic;
+    color: #cf3476;
+  }
+
+  #greeting{
+    font-family:"Times New Roman";
+    font-size: 16px;
+    color: white;
+    margin: 10px;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  #firstName{
+    font: "Times New Roman";
+    font-size: 16px;
+    color: black;
+    width: 50%;
+  }
+
+  #lastName{
+    font: "Times New Roman";
+    font-size: 16px;
+    color: black;
+    width: 50%;
+  }
+
+  #email{
+    font: "Times New Roman";
+    font-size: 16px;
+    color: black;
+    width: 50%;
+  }
+
+  #password{
+    font: "Times New Roman";
+    font-size: 16px;
+    color: black;
+    width: 50%;
+  }
+
+  #buttonSU{
+    width: 55%;
+    background-color: #ffefd5;
+  }
+
+  #buttonLI{
+    width: 55%;
+    background-color: #ffefd5;
+  }
+
+  .container{
+    text-align: center;
+    width: 1000px;
+    height: 200px;
+    background-color: #fff5ee;
+    opacity: 80%;
+    border-radius: 10px;
+    border: 5px dotted #cf3476;
+  }
+
+  @media (max-width: 660px){
+
+    *{
+      margin: 0px;
+    }
+    body{
+      background-image: url("../media/gym_photo.jpg");
+      background-repeat: no-repeat;
+      background-size: auto;
+      color: #d70040;
+      font-family: "Arial";
+    }
+
+    legend{
+      width:100%;
+    }
+
+    .text-center{
+      text-align: center;
+    }
+
+    #hook{
+      text-align: center;
+      font-size:25px;
+      font-family: "Dido", serif;
+      font-style: italic;
+      color: #cf3476;
+      text-align: center;
+    }
+
+    #greeting{
+      font-family:"Times New Roman";
+      font-size: 16px;
+      color: white;
+      margin: 10px;
+
+    }
+    #firstName{
+      font: "Times New Roman";
+      font-size: 16px;
+      color: black;
+      width: 50%;
+      text-align: left;
+    }
+
+    #lastName{
+      font: "Times New Roman";
+      font-size: 16px;
+      color: black;
+      width: 50%;
+      text-align: left;
+    }
+
+    #email{
+      font: "Times New Roman";
+      font-size: 16px;
+      color: black;
+      width: 50%;
+      text-align: left;
+    }
+
+    #password{
+      font: "Times New Roman";
+      font-size: 16px;
+      color: black;
+      width: 50%;
+      text-align: left;
+    }
+
+    #buttonSU{
+      width: 55%;
+      background-color: #ffefd5;
+    }
+
+    .container{
+      text-align: left;
+      width: 500px;
+      height: 200px;
+      background-color: #fff5ee;
+      opacity: 80%;
+      border-radius: 10px;
+      border: 5px dotted #cf3476;
+    }
+  }
